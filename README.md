@@ -1,0 +1,10 @@
+# CAR-detection
+yolo3.weight是模型权重
+make_data.py是为分类模型alexnet制造训练和测试数据使用YOLOv3的检测结果
+新建一个IMGS文件夹里面存放待测试图片
+alexnet_data文件夹为make_data.py得到的数据路径
+alexnet.py为alexnet模型的结构定义
+buildalexnet.py 训练alexnet模型并保存于目录下，命名为：alexnet.py
+darket.py yolo模型的定义
+detect.py测试程序
+det文件夹为结果存放位置
