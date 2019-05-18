@@ -1,0 +1,4 @@
+  训练代码： python buildalexnet.py --epochs=100    #内存过小 即便更改batch_size为1 也依旧是内存占用过大 出现Memorryerror。
+  测试代码： python detect.py --img_path=图片路径  #例如：C:\User\asus\Desktop\CarDection\cars_test\00020.jpg
+  输出结果在det文件夹里面。
+  cd C:\Users\asus\Desktop\CarDection
